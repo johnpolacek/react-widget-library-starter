@@ -1,0 +1,23 @@
+# Logs
+logs
+*.log
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# testing
+/coverage
+/cypress/screenshots
+/cypress/videos
+
+# Remove some common IDE working directories
+.idea
+.vscode
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
